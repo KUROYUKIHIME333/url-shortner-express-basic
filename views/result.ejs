@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>MiniLink : short link and qr code</title>
+</head>
+
+<body>
+    <main>
+        <h1>MiniLink</h1>
+        <div class="display-section">
+            <div class="result-display-container">
+                <p class="text-display-center"><a class="link-no-decoration short-link-result" href="<%= shortUrl %>" target="_blank"><%= shortUrl %></a></p>
+            </div>
+
+            <div class="result-display-container">
+                <img class="autofit-picture text-display-center" src="data:image/png;base64,<%= qrCode %>" alt="QR Code">
+            </div>
+
+            <a class="link-no-decoration text-display-center hover-change" href="/">Get another miniLink?</a>    
+        </div>
+        
+    </main>
+</body>
+</html>

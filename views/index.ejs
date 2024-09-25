@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>MiniLink : short link and qr code</title>
+</head>
+
+<body>
+    <main>
+        <h1>MiniLink</h1>
+
+        <div class="introduction-section">
+            <h2 class=".text-display-center">Shorten your links and generate QR codes</h2>
+            <p class="text-display-justify">
+                QR Codes allow smartphone users to access your website simply and quickly.
+            </p>
+            <p class="text-display-justify">
+                Shorts URLs are easier to remember, more aesthetic and visually appealing when embedded or shared on social media that have strict character limits.
+            </p>
+        </div>
+
+        <div class="display-section">
+            <form action="/generate" method="POST" class="form-section">
+                <label class="text-display-justify">Put your link below, to reduce it and generate a QR code, if you need :</label>
+                <input type="url" name="url" required id="given-url" placeholder="URL to reduce"> 
+                <div class="buttons-section">
+                    <button type="submit" id="reduce-url-btn"> 
+                        <span class="material-symbols-outlined">
+                            link
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </div>
+        
+    </main>
+</body>
+</html>
