@@ -1,0 +1,51 @@
+# MiniLink
+
+MiniLink est un service de raccourcissement de liens et de génération de QR codes, construit avec Express.js. Ce projet permet aux utilisateurs de créer des liens courts et des QR codes sans utiliser de base de données.
+
+## Fonctionnalités
+
+- **Raccourcissement de liens** : Transformez vos longues URL en liens courts en utilisant une API open source.
+- **Génération de QR Codes** : Créez des QR codes pour vos liens raccourcis, permettant un accès rapide via des smartphones.
+- **Interface utilisateur simple** : Une page d'accueil intuitive pour entrer vos liens et obtenir des QR codes.
+
+## Technologies utilisées
+
+- **Node.js**
+- **Express.js**
+- **EJS** (pour le rendu des pages)
+- **QR Code Generator** (`qr-image`)
+- **Axios** (pour les requêtes HTTP)
+
+## Comment utiliser MiniLink en local
+
+1. Clonez le dépôt :
+```bash
+    git clone <url-du-dépôt>
+```
+
+    Accédez au répertoire du projet :
+```bash
+    cd <nom-du-répertoire>
+```
+
+Installez les dépendances :
+```bash
+    npm install
+```
+
+Démarrez le serveur :
+```bash
+    npm start
+```
+
+Ouvrez votre navigateur et accédez à http://localhost:3000.
+
+## Application déployée
+
+Pour accéder à l'application déployée et utilisée, visitez ce lien : 
+
+https://url-shortner-express-basic.onrender.com/
+
+## License
+
+Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
