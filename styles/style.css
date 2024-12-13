@@ -113,3 +113,9 @@ button{
 .hover-change:hover{
     color: rgb(161, 63, 247);
 }
+
+@media screen and (max-width: 600px){
+    .center-in-mobile{
+        text-align: center;
+    }
+}
