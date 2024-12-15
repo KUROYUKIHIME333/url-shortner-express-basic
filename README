@@ -6,7 +6,7 @@ MiniLink est un service de raccourcissement de liens et de génération de QR co
 
 - **Raccourcissement de liens** : Transformez vos longues URL en liens courts en utilisant une API open source.
 - **Génération de QR Codes** : Créez des QR codes pour vos liens raccourcis, permettant un accès rapide via des smartphones.
-- **Interface utilisateur simple** : Une page d'accueil intuitive pour entrer vos liens et obtenir des QR codes.
+- **Interface utilisateur simple** : Une page d accueil intuitive pour entrer vos liens et obtenir des QR codes.
 
 ## Technologies utilisées
 
@@ -42,7 +42,7 @@ Ouvrez votre navigateur et accédez à http://localhost:3000.
 
 ## Application déployée
 
-Pour accéder à l'application déployée et utilisée, visitez ce lien : 
+Pour accéder à l application déployée et utilisée, visitez ce lien : 
 
 https://url-shortner-express-basic.onrender.com/
 
