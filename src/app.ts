@@ -10,8 +10,9 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("styles"));
 
+
 //GET ROUTE, TO RETURN index.ejs WHEN A CONNEXION OCCURED
-app.get("/", (req: Request, res: Response) => {
+app.get("/", (res: Response) => {
     res.render("index");
 });
 

@@ -33,18 +33,25 @@ Installez les dépendances :
     npm install
 ```
 
+Compiler le code Typescript en Javascript :
+```bash
+    npm run build
+```
+
 Démarrez le serveur :
 ```bash
     npm start
 ```
 
-Ouvrez votre navigateur et accédez à http://localhost:3000.
+Ouvrez votre navigateur et accédez à http://localhost:3000 (ou bien ce qui vous sera indiqué dans votre terminal).
 
 ## Application déployée
 
-Pour accéder à l application déployée et utilisée, visitez ce lien : 
+Pour accéder à l application déployée et l'utiliser gratuitement, visitez ce lien : 
 
 https://url-shortner-express-basic.onrender.com/
+
+N'hésitez pas à nous transmettre vos avis et pistes d'améliorations.
 
 ## License
 
